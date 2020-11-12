@@ -1,0 +1,268 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 44px;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.input {
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px;
+    padding-left: 35px;
+    background-repeat: no-repeat;
+    background-position: left 11px center;
+}
+.input-address {
+    width: 690px;
+    background-image: url(/img/home.svg);
+}
+.cearch-input {
+    width: 300px;
+    background-image: url(/img/request.svg);
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+.button {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+    border-radius: 2px;
+    color: #595959;
+    font-size: 16px;
+    line-height: 24px;
+}
+.button-primary {
+    background: #1890FF;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+.button_icon {
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.under_logo {
+    box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
+    background: #FFF1B8 url(/img/under_logo_img.png) no-repeat top right 100px/ 330px; 
+    border-radius: 10px;
+    padding: 68px 71px;
+    margin-bottom: 56px;
+}
+.under_logo_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 46px;
+    color: #302C34;
+}
+.under_logo_text {
+    max-width: 538px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #302C34;
+}
+.section_heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 0; 
+    color: #000000;
+}
+.cards {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.card {
+    display: flex;
+    display:inline-block;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 7px;
+    overflow: hidden;
+    margin-left: 13px;
+    margin-bottom: 30px;
+    width: 384px;
+    height: 380px;
+}
+.card-heading {
+    width: 335px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin: 21px 24px;
+}
+.card-title {
+    width: 300px;
+    height: 32px;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 0px;
+    text-align: left;
+    text-decoration: black;
+}
+.card-tag {
+    width: 70px;
+    height: 22px;
+    color: #FFFFFF;
+    background: #262626;
+    border-radius: 2px;
+    margin-top: 4px;
+    margin-left: -1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.card-info {
+    width: 32vh;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.rating {
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFC107;
+}
+.card-rating {
+    width: 16px;
+    height: 16px;
+}
+.price {
+    font-size: 18px;
+    line-height: 32px;
+    color: #8C8C8C;
+}
+.categoriy {
+    width: 90px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 32px;
+    color: #8C8C8C;
+}
+.card-image {
+    width: 384px;
+    height: 250px;
+}
+.navigation {
+    margin-left: 150px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+.logo-bottom {
+    margin-right: 36px;
+}
+.nav {
+    display: flex;
+    justify-content: left;
+}
+.nav__link{
+    text-decoration:none;
+    flex: none;
+    order: 0;
+    align-self: center;
+    color: #595959;
+    display: inline-block;
+    vertical-align: left;
+    margin: 0 15px;
+
+    transition: background .5s ease-out;
+}
+.nav__link:hover {
+    background-color: #FFF700;
+}
+.soc_network {
+    display: flex;
+    justify-content: right;
+    margin-left: 417px;
+}
+.network {
+    padding-left: 21px;
+}
+
+/* Конец титульника */
+
+
+/* Декорации информации о товарах */
+
+
+.card-heading-buy {
+    display: block;
+    justify-content: left;
+    margin-left: 24px;
+}
+.card-image-buy {
+    width: 384px;
+    height: 212px;
+}
+.card-title-buy {
+    width: 300px;
+    height: 32px;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    margin-top: 0px;
+
+}
+.card-inform-buy {
+    width: 360px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #8C8C8C;
+    margin-top: -20px;
+}
+.buy {
+    display: flex;
+    justify-content: left;
+    margin-left: 24px;
+    
+}
+.button-buy {
+    width: 124px 40px;
+    color: #FFFFFF;
+}
+.price-buy {
+    width: 70px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 32px;
+    padding-top: 5px;
+    margin-left: 40px;
+}
